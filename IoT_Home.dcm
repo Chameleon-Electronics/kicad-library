@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HT12D
+D 2¹² Series of Decoder
+K Series Decoder
+F https://www.farnell.com/datasheets/1525377.pdf
+$ENDCMP
+#
+$CMP AO3400
+D 30V Vds, 5.8A Id, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.aosmd.com/pdfs/datasheet/ao3400.pdf
+$ENDCMP
+#
+$CMP E73-2G4M08S1C
+D nRF52840 BLE5 Module
+K BLE5, BLE, nRF52840
+F http://www.ebyte.com/en/downpdf.aspx?id=445
+$ENDCMP
+#
+#End Doc Library
