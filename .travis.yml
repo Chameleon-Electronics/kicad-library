@@ -1,0 +1,10 @@
+language: python
+python:
+  - "3.6"
+
+before_install:
+- git clone --depth 1 https://github.com/KiCad/kicad-library-utils /home/travis/build/kicad-library-utils
+
+script:
+- cd /home/travis/build/kicad-library-utils/schlib
+- python /home/travis/build/kicad-library-utils/schlib/checklib.py $TRAVIS_BUILD_DIR/*.lib
