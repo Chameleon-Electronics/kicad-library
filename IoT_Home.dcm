@@ -6,6 +6,12 @@ K N-Channel MOSFET
 F http://www.aosmd.com/pdfs/datasheet/ao3400.pdf
 $ENDCMP
 #
+$CMP BL0937
+D Single Phase Energy Meter IC with Integrated Oscillatorfor Socket
+K Sensor
+F http://www.belling.com.cn/media/file_object/bel_product/BL0937/datasheet/BL0937_V1.02_en.pdf
+$ENDCMP
+#
 $CMP E73-2G4M08S1C
 D nRF52840 BLE5 Module
 K BLE5, BLE, nRF52840
