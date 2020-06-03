@@ -18,6 +18,12 @@ K BLE5, BLE, nRF52840
 F http://www.ebyte.com/en/downpdf.aspx?id=445
 $ENDCMP
 #
+$CMP FL51x0MX
+D IGBT and MOSFET AC Phase Cut Dimmer Controller
+K dimmer
+F https://www.onsemi.com/pub/Collateral/FL5150-D.pdf
+$ENDCMP
+#
 $CMP HT12D
 D 2¹² Series of Decoder
 K Series Decoder
