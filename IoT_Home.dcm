@@ -24,6 +24,12 @@ K dimmer
 F https://www.onsemi.com/pub/Collateral/FL5150-D.pdf
 $ENDCMP
 #
+$CMP FMMT459
+D 500V NPN HIGH VOLTAGE TRANSISTOR IN SOT23
+K transistor NPN High Voltage
+F https://www.diodes.com/assets/Datasheets/FMMT459.pdf
+$ENDCMP
+#
 $CMP HT12D
 D 2¹² Series of Decoder
 K Series Decoder
