@@ -63,7 +63,7 @@ F1 "Conn_Chameleon_SWD" -100 250 50 H V R BNN
 F2 "IoT_Home:Chameleon_SWD_Header" 0 -300 50 H I C CNN
 F3 "" -350 -1250 50 V I C CNN
 $FPLIST
- PinHeader?2x05?P1.27mm*
+ Chameleon?SWD?Header*
 $ENDFPLIST
 DRAW
 S -400 200 400 -200 0 1 10 f
