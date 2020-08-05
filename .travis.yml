@@ -7,4 +7,4 @@ before_install:
 
 script:
 - cd /home/travis/build/kicad-library-utils/schlib
-- python /home/travis/build/kicad-library-utils/schlib/checklib.py $TRAVIS_BUILD_DIR/*.lib
+- python /home/travis/build/kicad-library-utils/schlib/checklib.py -v $TRAVIS_BUILD_DIR/*.lib
