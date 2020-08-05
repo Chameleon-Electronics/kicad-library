@@ -72,10 +72,10 @@ K N-Channel MOSFET
 F http://www.jaolen.com/images/pdf/QM6006D.pdf
 $ENDCMP
 #
-$CMP nRF52820-QDxx
+$CMP nRF52820-QDAA
 D Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4 SoC, QFN-40
 K MCU, ARM, BLE, ANT, 2.4GHz, 802.15.4
-F https://infocenter.nordicsemi.com/pdf/nRF52820_OPS_v0.7.1.pdf
+F https://infocenter.nordicsemi.com/pdf/nRF52820_PS_v1.0.pdf
 $ENDCMP
 #
 #End Doc Library
