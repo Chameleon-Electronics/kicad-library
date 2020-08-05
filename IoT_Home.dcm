@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADE7953
+D Single Phase Multifunction Energy Metering with Neutral Current Measurement, SO-24
+K Energy Metering
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADE7953.pdf
+$ENDCMP
+#
 $CMP AO3400
 D 30V Vds, 5.8A Id, N-Channel MOSFET, SOT-23
 K N-Channel MOSFET
