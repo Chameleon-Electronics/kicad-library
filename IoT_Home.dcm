@@ -66,6 +66,12 @@ K CoolMOS Power MOSFET N-MOS
 F https://www.infineon.com/dgdl/Infineon-IPD60R400CE-DS-v02_02-EN.pdf?fileId=5546d46249be182c0149c83667001f0c
 $ENDCMP
 #
+$CMP NCE65T680K
+D 7A Id, 600V Vds, N-Channel Power MOSFET, 600mOhm Ron, 11nC Qg (typ), TO-252-2
+K Power MOSFET N-MOS
+F http://ncepower.com/Upload/SJ/NCE65T680K,NCE65T680Idatasheet-14230382566.pdf
+$ENDCMP
+#
 $CMP OrangePi_Zero
 D Single Board Computer
 K sbc
