@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.4
 DEF ADE7953 U 0 20 Y Y 1 F N
 F0 "U" -500 1000 50 H V R CNN
 F1 "ADE7953" -500 1100 50 H V R CNN
-F2 "IoT_Home:LFCSP-28-1EP_5x5mm_P0.5mm_EP3.14x3.14mm" 250 -1050 50 H I L CNN
+F2 "Chameleon_Electronics:LFCSP-28-1EP_5x5mm_P0.5mm_EP3.14x3.14mm" 250 -1050 50 H I L CNN
 F3 "" 300 1200 50 H I C CNN
 $FPLIST
  LFCSP?28*
@@ -102,7 +102,7 @@ ENDDEF
 DEF Conn_Chameleon_SWD J 0 20 Y Y 1 F N
 F0 "J" -300 350 50 H V R CNN
 F1 "Conn_Chameleon_SWD" -300 250 50 H V R BNN
-F2 "IoT_Home:Chameleon_SWD_Header" -200 -300 50 H I C CNN
+F2 "Chameleon_Electronics:Chameleon_SWD_Header" -200 -300 50 H I C CNN
 F3 "" -350 -1250 50 V I C CNN
 $FPLIST
  *SWD*
@@ -123,7 +123,7 @@ ENDDEF
 DEF E73-2G4M08S1C U 0 20 Y Y 1 F N
 F0 "U" 0 -400 50 H V C BNN
 F1 "E73-2G4M08S1C" 0 -500 50 H V C BNN
-F2 "IoT_Home:E73-2G4M08S1C" 0 -100 50 H I C CNN
+F2 "Chameleon_Electronics:E73-2G4M08S1C" 0 -100 50 H I C CNN
 F3 "" 0 1200 50 H I C CNN
 $FPLIST
  E73*2G4M08S1C*
@@ -296,7 +296,7 @@ ENDDEF
 DEF OrangePi_Zero U 0 20 Y Y 1 F N
 F0 "U" 100 -1400 50 H V C CNN
 F1 "OrangePi_Zero" 350 -1250 50 H V C CNN
-F2 "IoT_Home:orangepi-zero" 500 -1500 50 H I C CNN
+F2 "Chameleon_Electronics:orangepi-zero" 500 -1500 50 H I C CNN
 F3 "" 50 500 50 H I C CNN
 $FPLIST
  orangepi?zero*
