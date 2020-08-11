@@ -90,7 +90,7 @@ K MCU, ARM, BLE, ANT, 2.4GHz, 802.15.4
 F https://infocenter.nordicsemi.com/pdf/nRF52820_PS_v1.0.pdf
 $ENDCMP
 #
-$CMP π120U30
+$CMP pi120U30
 D Dual-channel digital isolator, 3V-5.5V level translation, Safe LOW, SOIC-8
 K Dual-channel digital isolator
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1200_1201.pdf
