@@ -6,5 +6,6 @@ before_install:
 - git clone --depth 1 https://github.com/KiCad/kicad-library-utils /home/travis/build/kicad-library-utils
 
 script:
-- cd /home/travis/build/kicad-library-utils/schlib
-- python /home/travis/build/kicad-library-utils/schlib/checklib.py -v $TRAVIS_BUILD_DIR/*.lib
+- python /home/travis/build/kicad-library-utils/check_lib_table.py $TRAVIS_BUILD_DIR/*.lib --table $TRAVIS_BUILD_DIR/hardware/sym-lib-table
+- bash /home/travis/build/kicad-library-utils/pcb/travis/check_all.sh $TRAVIS_BUILD_DIR/hardware -v
+- python /home/travis/build/kicad-library-utils/check_lib_table.py $TRAVIS_BUILD_DIR/hardware/*.pretty --table $TRAVIS_BUILD_DIR/hardware/fp-lib-table
