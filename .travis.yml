@@ -7,4 +7,4 @@ before_install:
 
 script:
 - python /home/travis/build/kicad-library-utils/schlib/checklib.py -v $TRAVIS_BUILD_DIR/*.lib
-- bash /home/travis/build/kicad-library-utils/pcb/travis/check_all.sh $TRAVIS_BUILD_DIR/Chameleon_Electronics.pretty -v
+- python /home/travis/build/kicad-library-utils/pcb/check_kicad_mod.sh $TRAVIS_BUILD_DIR/Chameleon_Electronics.pretty/*.kicad_mod -v
