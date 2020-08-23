@@ -24,6 +24,10 @@ K Cortex Debug Connector ARM SWD JTAG
 F https://github.com/Chameleon-Electronics/programmer-adapter
 $ENDCMP
 #
+$CMP Conn_Chameleon_SWD_SOICbite
+F https://github.com/Chameleon-Electronics/programmer-adapter
+$ENDCMP
+#
 $CMP E73-2G4M08S1C
 D nRF52840 BLE5 Module
 K BLE5, BLE, nRF52840
