@@ -28,6 +28,12 @@ K Series Decoder
 F https://www.farnell.com/datasheets/1525377.pdf
 $ENDCMP
 #
+$CMP MMBTA44
+D 0.1A Ic, 400V Vce, NPN High Voltage Transistor, SOT-23
+K NPN High Voltage Transistor
+F https://www.mccsemi.com/pdf/Products/MMBTA44(SOT-23)-E.pdf
+$ENDCMP
+#
 $CMP OrangePi_Zero
 D Single Board Computer
 K sbc
